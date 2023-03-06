@@ -7,7 +7,8 @@ end
 local b = null_ls.builtins
 
 local sources = {
-
+  --Go
+   b.formatting.goimports,
    -- webdev stuff
    b.formatting.deno_fmt,
    b.formatting.prettier,
